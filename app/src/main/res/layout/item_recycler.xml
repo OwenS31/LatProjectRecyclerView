@@ -7,9 +7,9 @@
 
     <ImageView
         android:id="@+id/gambarWayang"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:src="@drawable/roboGambar"
+        android:layout_width="86dp"
+        android:layout_height="95dp"
+        android:src="@drawable/robogambar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="namaWayang"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/gambarWayang"
         app:layout_constraintTop_toTopOf="@+id/gambarWayang" />
 
@@ -30,16 +30,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:text="karakterWayang"
+        android:textColor="#40d1c7"
         app:layout_constraintStart_toEndOf="@+id/gambarWayang"
         app:layout_constraintTop_toBottomOf="@+id/namaWayang" />
 
     <TextView
         android:id="@+id/deskripsiWayang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="76dp"
+        android:layout_height="167dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="deskripsiWayang"
+        android:textSize="12dp"
         app:layout_constraintStart_toEndOf="@+id/gambarWayang"
         app:layout_constraintTop_toBottomOf="@+id/karakterWayang" />
 
