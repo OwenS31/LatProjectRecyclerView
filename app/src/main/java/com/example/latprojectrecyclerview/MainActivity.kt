@@ -55,9 +55,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun TampilkanData(){
-        _rvWayang.layoutManager = StaggeredGridLayoutManager(2,LinearLayoutManager.VERTICAL)
+//        _rvWayang.layoutManager = StaggeredGridLayoutManager(2,LinearLayoutManager.VERTICAL)
 //        _rvWayang.layoutManager = GridLayoutManager(this,2)
-//        _rvWayang.layoutManager = LinearLayoutManager(this)
+        _rvWayang.layoutManager = LinearLayoutManager(this)
         _rvWayang.adapter = adapterRecView(arWayang)
     }
 }
